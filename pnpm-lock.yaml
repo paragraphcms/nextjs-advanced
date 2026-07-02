@@ -18,14 +18,14 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6(react@19.2.4)
       '@paragraphcms/client':
-        specifier: ^3.0.6
-        version: 3.0.6
+        specifier: ^3.0.8
+        version: 3.0.8
       '@paragraphcms/parser-react':
         specifier: ^0.3.0
         version: 0.3.0(@types/react@19.2.15)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@paragraphcms/seo':
         specifier: ^0.2.1
-        version: 0.2.1(@paragraphcms/client@3.0.6)
+        version: 0.2.1(@paragraphcms/client@3.0.8)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -659,8 +659,8 @@ packages:
   '@open-draft/until@2.1.0':
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
 
-  '@paragraphcms/client@3.0.6':
-    resolution: {integrity: sha512-1E++/7SOiNiNCAn/enwHNuBDmiGzAuo+SNvgj90iw51teKh7pB9lHrlFY7l5Wpw3VUEuqy4Kte3RkeAJdX+EHg==}
+  '@paragraphcms/client@3.0.8':
+    resolution: {integrity: sha512-DOy9skIQiRh0myHrnzqGyyyjBhrG1QIYfDaNpyNjfZiuxdxsB7vPnWYBZN1is+MWa5NsSguGtUEam1/0OxwZpw==}
     engines: {node: '>=18'}
 
   '@paragraphcms/components@0.2.2':
@@ -3775,7 +3775,7 @@ snapshots:
 
   '@open-draft/until@2.1.0': {}
 
-  '@paragraphcms/client@3.0.6':
+  '@paragraphcms/client@3.0.8':
     dependencies:
       bottleneck: 2.19.5
       ky: 2.0.2
@@ -3799,9 +3799,9 @@ snapshots:
       - '@tiptap/react'
       - '@types/react'
 
-  '@paragraphcms/seo@0.2.1(@paragraphcms/client@3.0.6)':
+  '@paragraphcms/seo@0.2.1(@paragraphcms/client@3.0.8)':
     dependencies:
-      '@paragraphcms/client': 3.0.6
+      '@paragraphcms/client': 3.0.8
 
   '@rtsao/scc@1.1.0': {}
 

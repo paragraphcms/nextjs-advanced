@@ -1,21 +1,33 @@
-# Next.js template
+# ParagraphCMS Next.js Advanced
 
-This is a Next.js template with shadcn/ui.
+Ten README jest krótką dokumentacją projektu ParagraphCMS dla przykładu Next.js Advanced. Projekt rozwija App Router blog o lokalizowane trasy, RSS, `sitemap.xml`, `robots.txt`, `llms.txt` oraz generowanie metadanych przez `@paragraphcms/seo`.
 
-## Adding components
+Oficjalny kontekst: [ParagraphCMS Next.js Advanced](https://paragraphcms.com/docs/advanced/nextjs).
 
-To add components to your app, run the following command:
+## Konfiguracja
+
+1. Skopiuj `.env.example` do `.env`.
+2. Ustaw `PARAGRAPH_API_KEY` kluczem API z ParagraphCMS.
+3. W ParagraphCMS utwórz kolekcję `blog`, jeśli zostawiasz domyślną mapę tras.
+4. Zmień `site.url` w `paragraph.config.ts` na produkcyjną domenę.
+
+## Uruchomienie
 
 ```bash
-npx shadcn@latest add button
+pnpm install
+pnpm dev
 ```
 
-This will place the ui components in the `components` directory.
+Build i start produkcyjny:
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
+```bash
+pnpm build
+pnpm start
 ```
+
+## Najważniejsze pliki
+
+- `paragraph.config.ts` - klient ParagraphCMS i konfiguracja SEO.
+- `app/blog/` - domyślne trasy bloga.
+- `app/[locale]/blog/` - lokalizowane trasy bloga.
+- `app/sitemap.xml/route.ts`, `robots.txt/route.ts`, `llms.txt/route.ts` - generowane dokumenty SEO.
