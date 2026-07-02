@@ -15,7 +15,7 @@
     "@base-ui/react": "^1.6.0",
     "@hugeicons/core-free-icons": "^4.2.2",
     "@hugeicons/react": "^1.1.9",
-    "@paragraphcms/client": "^3.0.8",
+    "@paragraphcms/client": "4.1.0",
     "@paragraphcms/parser-react": "^0.3.0",
     "@paragraphcms/seo": "^0.2.2",
     "class-variance-authority": "^0.7.1",
